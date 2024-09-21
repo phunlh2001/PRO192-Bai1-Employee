@@ -19,7 +19,7 @@ public class FullTimeEmployee extends Employee implements Serializable {
 
     @Override
     protected double calculateSalary() {
-        return this.salary * this.workInDays;
+        return this.salary * this.workInDays * 24;
     }
     
     @Override
